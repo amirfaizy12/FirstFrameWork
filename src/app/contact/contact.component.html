@@ -1,0 +1,19 @@
+<section class="second-sec text-center">
+    <h2 class="fs-1 fw-bolder pt-4 mb-3">PORTFOLIO COMPONENT</h2>
+    <div class="star position-relative mb-3">
+        <i class="fa-solid fa-star"></i>
+    </div>
+    <div class="container py-3">
+        <form class="w-50 mx-auto mt-5 text-start" action="#">
+            <label  for="userName" [class.d-none]="disName">userName:</label>
+            <input (input)="display()" type="text" id="userName" name="userName" placeholder="userName" class="form-control border-0 border-bottom py-3 position-relative">
+            <label   for="userAge" [class.d-none]="disAge">userAge:</label>
+            <input (input)="displayAge()" type="text" id="userAge" name="userAge" placeholder="userAge" class="form-control border-0 border-bottom py-3 position-relative">
+            <label  for="userEmail" [class.d-none]="disEmail">userEmail:</label>
+            <input (input)="displayEmail()" type="text" id="userEmail" name="userEmail" placeholder="userEmail" class="form-control border-0 border-bottom py-3 position-relative">
+            <label  for="userPassword" [class.d-none]="disPassword">userPassword:</label>
+            <input (input)="displayPass()" type="text" id="userPassword" name="userPassword" placeholder="userPassword" class="form-control border-0 border-bottom py-3 position-relative">
+            <button _ngcontent-oyt-c16="" class="btn mt-4 text-white"> send Message </button>
+        </form> 
+    </div>
+</section>

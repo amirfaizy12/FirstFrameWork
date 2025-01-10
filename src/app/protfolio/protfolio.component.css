@@ -1,0 +1,33 @@
+.star::after{
+    content: "";
+    height: 4px;
+    width: 80px;
+    background-color: var(--main-color);
+    position: absolute;
+    top: 50% ;
+    right: 52% ;
+}
+.star::before{
+    content: "";
+    height: 4px;
+    width: 80px;
+    background-color: var(--main-color);
+    position: absolute;
+    top: 50% ;
+    left: 52% ;
+}
+
+.layer{
+    cursor: pointer;
+    background-color: #1abc9ce6;
+    transition: .6s;
+    opacity: 0;
+}
+
+.layer:hover{
+    opacity: 1;
+}
+
+.layer-img{
+    z-index: 5000;
+}

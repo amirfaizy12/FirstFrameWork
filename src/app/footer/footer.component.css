@@ -1,0 +1,25 @@
+.copyright-footer{
+    background-color: #1a252f;
+    padding: 10px;
+}
+.copyright-footer p{
+    color: #f0f8ff;
+    padding-top: 10px;
+}
+
+.main-footer{
+    background-color: var(--main-color);
+    padding: 40px 60px;
+    text-align: center;
+}
+
+.main-footer .body{
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.icon{
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
